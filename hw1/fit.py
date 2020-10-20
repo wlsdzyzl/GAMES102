@@ -91,7 +91,6 @@ def ridge_regression(points, n = 3):
     return r
 
 def onclick(event):
-    global ix, iy
     ix, iy = event.xdata, event.ydata
     points.append([ix, iy])
 
