@@ -6,7 +6,7 @@ import numpy as np
 fig = plt.figure()
 plt.plot([], [])
 points = []
-sigma = 0.1
+sigma = 1
 # 2d points
 # interpolation----polynomial fitting
 
