@@ -17,3 +17,18 @@ Use pytorch to build a RBFNet to fit some points. See demo:
 
 Use parameterization to fit an arbitrary curve, which does not have to be a function. Use Taichi for visualization.
 ![](./hw3.gif)
+
+
+### Assignment 4
+
+Implementation of 7 kinds of curve. 
+- Natural cubic spline
+- End slope spline
+- G1-0
+- G1-1
+- G0
+- Bezier
+- Bezier interpolation
+More details can refer to `hw4/report.pdf`.
+
+![](./hw3.gif)
