@@ -29,6 +29,7 @@ Implementation of 7 kinds of curve.
 - G0
 - Bezier
 - Bezier interpolation
+
 More details can refer to `hw4/report.pdf`.
 
 ![](./hw4.gif)
