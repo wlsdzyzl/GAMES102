@@ -33,3 +33,14 @@ Implementation of 7 kinds of curve.
 More details can refer to `hw4/report.pdf`.
 
 ![](./hw4.gif)
+
+### Assignment 5
+
+Implementation of subdivision curve. 
+- Chaikin
+- Uniform B Spline
+- 4-point interpolation
+
+More details can refer to `hw5/report.pdf`.
+
+![](./hw5.gif)
