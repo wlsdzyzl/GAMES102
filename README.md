@@ -38,7 +38,7 @@ More details can refer to `hw4/report.pdf`.
 
 Implementation of subdivision curve. 
 - Chaikin
-- Uniform B Spline
+- Uniform Cubic B Spline
 - 4-point interpolation
 
 More details can refer to `hw5/report.pdf`.
