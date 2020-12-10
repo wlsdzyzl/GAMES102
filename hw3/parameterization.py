@@ -51,13 +51,13 @@ def foley(points):
         dists.append(np.linalg.norm(v2).item())
 
     
-    foley_dists.append(dists[0] *( 1 +  1.5 * angles[1] * dists[0] /(dists[0] + dists[1]) ))
+    foley_dists.append(dists[0] *( 1 +  1.5 * angles[0] * dists[1] /(dists[0] + dists[1]) ))
     for i in range(1, len(points) - 2):
-        id = i - 1
-        d = dists[id] *( 1 +  1.5 * angles[id] * dists[id - 1] /( dists[id - 1] + dists[id]) + 1.5 * angles[id+1] * dists[id] /(dists[id] + dists[id + 1]))
+        d = dists[i] *( 1 +  1.5 * angles[i-1] * dists[i - 1] /( dists[i - 1] + dists[i]) + 1.5 * angles[i] * dists[i+1] /(dists[i] + dists[i + 1]))
         foley_dists.append(d)
         sum_dists += d
-    foley_dists.append(dists[len(points) - 2] *( 1 +  1.5 * angles[id] * dists[id - 1] /( dists[id - 1] + dists[id]) ))
+    i = len(points) - 2
+    foley_dists.append(dists[i] *( 1 +  1.5 * angles[i-1] * dists[i-1] /( dists[i - 1] + dists[i]) ))
     sum_dists += foley_dists[0]
     sum_dists += foley_dists[-1]
     t = [0]
