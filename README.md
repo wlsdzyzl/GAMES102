@@ -17,7 +17,7 @@ Use pytorch to build a RBFNet to fit some points. See demo:
 
 Use parameterization to fit an arbitrary curve, which does not have to be a function. Use Taichi for visualization.
 ![](./hw3.gif)
-
+**Note that there were some bugs of foley parameterization, which have been fixed. However, the gif has not been updated yet.**
 
 ### Assignment 4
 
