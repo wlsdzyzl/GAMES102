@@ -45,3 +45,11 @@ Implementation of subdivision curve.
 More details can refer to `hw5/report.pdf`.
 
 ![](./hw5.gif)
+
+### Assignment 6
+More details can refer to `hw6/report.pdf`.
+
+### Assignment 7
+![](./hw7.gif)
+More details can refer to `hw7/report.pdf`.
+Code can refer to https://github.com/MyEvolution/Dragon.
