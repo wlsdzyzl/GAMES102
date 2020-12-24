@@ -53,4 +53,10 @@ More details can refer to `hw6/report.pdf`.
 ![](./hw7.gif)
 
 More details can refer to `hw7/report.pdf`.
+
+### Assignment 8
+![](./hw8.gif)
+
+More details can refer to `hw8/report.pdf`.
+
 Code can refer to https://github.com/MyEvolution/Dragon.
