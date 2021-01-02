@@ -59,4 +59,14 @@ More details can refer to `hw7/report.pdf`.
 
 More details can refer to `hw8/report.pdf`.
 
-Code can refer to https://github.com/MyEvolution/Dragon.
+### Assignment 9
+#### Quadric Edge Collapse Decimation and Clustering Decimation
+![](./hw9/armadlillo.jpg)
+
+![](./hw9/dragon.jpg)
+
+![](./hw9/bunny.jpg)
+
+More details can refer to `hw9/report.pdf`.
+
+Code can refer to https://github.com/MyEvolution/Dragon

@@ -59,7 +59,10 @@ class cubic_spline:
 
         # compute d
         self.d = [(x[i+1] - x[i])/(6 * h[i])  for i in range(len(h))]
-
+        print(self.a)
+        print(self.b)
+        print(self.c)
+        print(self.d)
     def new_points(self, input_x):
         # determine the range of x
         group_id = -1
@@ -178,3 +181,8 @@ class cubic_spline:
 
         # compute d
         self.d = [(x[i+1] - x[i])/(6 * h[i])  for i in range(len(h))]
+        
+P = [[0, -0.03], [0.24378, -0.15], [0.402016, -0.33], [0.705144, -0.5], [1, -0.44]]
+cs = cubic_spline()
+cs.set_points(P)
+cs.construct_cubic_spline()
