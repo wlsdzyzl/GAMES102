@@ -69,4 +69,10 @@ More details can refer to `hw8/report.pdf`.
 
 More details can refer to `hw9/report.pdf`.
 
+### Assignment 10
+#### RBF Reconstruction and Poisson Reconstruction
+![](./hw10.gif)
+
+More details can refer to `hw10/report.pdf`.
+
 Code can refer to https://github.com/MyEvolution/Dragon
